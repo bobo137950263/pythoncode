@@ -1,0 +1,6 @@
+tracked the modified file
+modified before commit
+modified after commit ,short status
+modified adter add,before commit
+
+git diff can tell us the exact lines been changed

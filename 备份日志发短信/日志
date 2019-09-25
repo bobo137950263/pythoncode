@@ -1,0 +1,19 @@
+uuid = 75f57bb7-a1dd-11e9-9274-0050568df397
+name =
+tool_name = xtrabackup
+tool_command = --defaults-file=/usr/local/mysql/mysqldata/data1/my.cnf --backup --user=root --password=... --socket=/usr/local/mysql/mysqldata/data1/mysql.sock --target-dir=/usr/local/mysql/mysqldata/databak/today/2019-07-09/data1 --incremental-basedir=/usr/local/mysql/mysqldata/databak/2019-07-07/data1/
+tool_version = 2.4.8
+ibbackup_version = 2.4.8
+server_version = 5.7.12-log
+start_time = 2019-07-09 07:55:49
+end_time = 2019-07-09 08:06:55
+lock_time = 0
+binlog_pos = filename 'mysql-bin.000018', position '275919336'
+innodb_from_lsn = 61049503964
+innodb_to_lsn = 61227406153
+partial = N
+incremental = Y
+format = file
+compact = N
+compressed = N
+encrypted = N
